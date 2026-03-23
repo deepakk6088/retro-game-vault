@@ -27,9 +27,9 @@ The API provides:
 
 ## How to Run the Project
 1. Clone the repository:
-   https://github.com/deepakk6088/retro-game-vault.git
+   ``` https://github.com/deepakk6088/retro-game-vault.git ```
 2. Open the project folder:
-   cd retro-game-vault
+   ``` cd retro-game-vault ```
 3. Open index.html in your browser
 
 ## Project Structure (Planned)
@@ -53,5 +53,5 @@ Retro Game Vault is designed as a simple yet powerful game discovery tool. The g
 
 This project is part of a learning milestone focused on planning and building a complete web application step by step.
 
-## By: Deepak Kumar(E25B070526)
-## Batch: Hopper(Compiler)
+## Author:
+Deepak Kumar(E25B070526)
