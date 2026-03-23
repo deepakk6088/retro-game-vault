@@ -34,10 +34,12 @@ The API provides:
 
 ## Project Structure (Planned)
 retro-game-vault/
-│── index.html
-│── style.css
-│── script.js
-│── README.md
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
 
 ## Future Scope
 * Add sorting options (rating, popularity, release date).
