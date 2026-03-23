@@ -33,12 +33,14 @@ The API provides:
 3. Open index.html in your browser
 
 ## Project Structure (Planned)
+```
 retro-game-vault/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+```
 
 
 ## Future Scope
@@ -51,5 +53,5 @@ Retro Game Vault is designed as a simple yet powerful game discovery tool. The g
 
 This project is part of a learning milestone focused on planning and building a complete web application step by step.
 
-By: Deepak Kumar(E25B070526)
-Batch: Hopper(Compiler)
+## By: Deepak Kumar(E25B070526)
+## Batch: Hopper(Compiler)
