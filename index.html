@@ -3,18 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Game List</title>
+  <title>GameVerse Arena</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>Game List</h1>
-  <input type="text" id="search" placeholder="Search games...">
-</header>
+  <header class="navbar">
+    <div class="logo-box">
+      <h1>GameVerse Arena</h1>
+      <p>Explore • Filter • Favorite • Play</p>
+    </div>
+
+    <div class="nav-right">
+      <input type="text" id="search" placeholder="Search games...">
+      <button id="themeToggle">Dark</button>
+    </div>
+  </header>
+
+  <section class="controls">
+    <select id="genreFilter">
+      <option value="all">All Genres</option>
+    </select>
+
+    <select id="ratingFilter">
+      <option value="all">All Ratings</option>
+      <option value="4">4+ Rating</option>
+      <option value="3">3+ Rating</option>
+      <option value="2">2+ Rating</option>
+    </select>
+
+    <select id="sortOption">
+      <option value="default">Sort By</option>
+      <option value="nameAsc">Name A-Z</option>
+      <option value="nameDesc">Name Z-A</option>
+      <option value="ratingHigh">Rating High-Low</option>
+      <option value="ratingLow">Rating Low-High</option>
+    </select>
+  </section>
+
   <p id="loader">Loading...</p>
   <p id="error" class="hidden">Failed to load data</p>
 
   <div id="games" class="games-container"></div>
+
+  <div class="pagination">
+    <button id="prevBtn">Previous</button>
+    <span id="pageNumber">Page 1</span>
+    <button id="nextBtn">Next</button>
+  </div>
+
+  <section class="favorites-section">
+    <h2>Favorite Games</h2>
+    <div id="favoriteGames" class="games-container"></div>
+  </section>
 
   <script src="script.js"></script>
 </body>
