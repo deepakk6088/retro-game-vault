@@ -1,23 +1,66 @@
 # Retro-game-vault
 ## Project Overview
-Retro Game Vault is a web application that helps users discover, search, and explore both classic and modern video games. It provides an easy way to browse games, filter them by platform, and save favorites for later viewing.
-This project focuses on creating a clean and interactive user experience while working with real-world API data.
+Retro Game Vault is a web application that helps users discover, search, and explore video games using real-time data from the RAWG Video Games Database API.  
+The application provides an interactive and user-friendly interface where users can browse games, filter them by genre and rating, sort results, save favorite games, and switch between light and dark themes.
+
+This project was built to practice JavaScript concepts such as:
+- API integration using `fetch()`
+- DOM manipulation
+- Array higher-order functions like `filter()`, `sort()`, `map()`, and `some()`
+- Local storage
+- Responsive UI design with CSS
 
 ## Features (Planned)
-1. Search games with a responsive search bar (with debounce logic)
-2. Filter games by platform (PC, PlayStation, Xbox, etc.)
-3. View ratings and game details
-4. Add games to Favorites (stored in browser memory)
-5. Compare two games side-by-side (challenge feature)
+### 1. Search Games
+Users can search for games by name using the search bar.
+
+### 2. Genre Filtering
+Games can be filtered by genre such as Action, Adventure, Racing, etc.
+
+### 3. Rating Filtering
+Users can filter games based on rating:
+- 4+ Rating
+- 3+ Rating
+- 2+ Rating
+
+### 4. Sorting Options
+Games can be sorted using different options:
+- Name A–Z
+- Name Z–A
+- Rating High to Low
+- Rating Low to High
+
+### 5. Favorites Section
+Users can add games to their favorites list.  
+Favorites are stored in the browser using `localStorage`, so they remain saved even after refreshing the page.
+
+### 6. Pagination
+Users can move between pages using Previous and Next buttons to explore more games.
+
+### 7. Dark / Light Theme
+The application includes a theme toggle button for switching between dark mode and light mode.
+
+### 8. Responsive UI
+The game cards are displayed in a responsive grid layout, making the app usable on mobile, tablet, and desktop screens.
+
+---
 
 ## API Used
-This project uses the RAWG Video Games Database API: https://rawg.io/apidocs
+## API Used
+This project uses the **RAWG Video Games Database API**:
+
+https://rawg.io/apidocs
 
 The API provides:
-* Game details
-* Ratings and reviews
-* Platforms and genres
-* Images and metadata
+- Game names
+- Ratings
+- Genres
+- Release dates
+- Game images
+- Other video game metadata
+
+---
+
 
 ## Technologies
 * HTML
@@ -55,3 +98,5 @@ This project is part of a learning milestone focused on planning and building a 
 
 ## Author:
 Deepak Kumar(E25B070526)
+
+ 
